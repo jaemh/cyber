@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+>
+<head>
+    <title>Menu</title>
+
+</head>
+<body>
+
+<div class="red">
+    <h3>Greetings:</h3>
+    <button><a th:href="@{/adminPage}">Show</a></button>
+</div>
+
+<div class="red">
+    <h3>For Admins:</h3>
+    <button><a th:href="@{/admin}">Show</a></button>
+</div>
+
+
+<div class="red">
+    <h3>Go to the userList:</h3>
+    <button><a th:href="@{/userList}">Show</a></button>
+</div>
+
+
+<div class="form">
+    <h3>Fill the form:</h3>
+    <button><a th:href="@{/create}">Show</a></button>
+</div>
+
+
+</body>
+
+
+</html>
+

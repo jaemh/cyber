@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>User list</title>
+    <style>
+        ul {
+            float: left;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+        }
+
+        li {display: inline;}
+    </style>
+</head>
+<body>
+
+<h1>Here is a list of all users:</h1>
+
+<h4>user1</h4>
+<h4>user2</h4>
+<h4>user3</h4>
+<h4>user4</h4>
+
+<ul  th:each="s : ${s}">
+
+      <a th:href="@{/userList/{n}(n=${s.name})}" th:text="${s.name}"></a>
+      <li th:utext="${s.address}"></li>
+</ul>
+
+
+    <div>
+        <h3>Back to the menu: </h3>
+        <button><a th:href="@{/menu}">Back</a></button>
+    </div>
+
+</body>
+</html>
