@@ -12,7 +12,7 @@ Steps to reproduce:
 1. Connect to the server localhost:8080/login.
 2. Enter a username: “user” and for the password “user”.
 3. Press Submit!
-4. Go to your user List by pressing the Show! button.
+4. Press the Show! -button under the Go to your user List -text 
 5. You ended up seeing the information of all the people you should not have seen.
 Type /logout to the address bar.
 
