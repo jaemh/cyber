@@ -31,7 +31,7 @@ Steps to reproduce:
 1. Connect to the server localhost:8080/login.
 2. Enter a username: “admin” and for the password “admin”.
 3. Press Submit!
-4. Press Greetings!
+4. Press Show!
 5. As you can see you were redirected to the wrong page
 6. Type /logout to the address bar.
 
